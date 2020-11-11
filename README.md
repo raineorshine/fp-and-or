@@ -1,5 +1,5 @@
-# and-or
-[![npm version](https://img.shields.io/npm/v/and-or.svg)](https://npmjs.org/package/and-or)
+# fp-and-or
+[![npm version](https://img.shields.io/npm/v/fp-and-or.svg)](https://npmjs.org/package/fp-and-or)
 
 Simple `and` and `or` functional programming predicates.
 
@@ -24,13 +24,13 @@ items.filter(or(isEven, isPositive))
 ## Install
 
 ```sh
-npm install --save and-or
+npm install --save fp-and-or
 ```
 
 ## Usage
 
 ```js
-const { and, or } = require('and-or')
+const { and, or } = require('fp-and-or')
 
 const isEven = n => n % 2 === 0
 const isPositive = n => n > 0
