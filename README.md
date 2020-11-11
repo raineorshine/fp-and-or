@@ -3,10 +3,10 @@
 
 Simple `and` and `or` functional programming predicates.
 
-- `or(...args): boolean` - a higher-order function that composes multiple predicates into one, such that the composed predicate will return true if **at least** one of the arguments are true or evaluate to true.
-- `and(...args): boolean` - a higher-order function that composes multiple predicates into one, such that the composed predicate will return true **all** of the arguments are true or evaluate to true.
+- `and(...fs): (...args): boolean` - Returns a predicate that returns true if **all** arguments are true or evaluate to true for the given input.
+- `or(...fs): (...args): boolean` - Returns a predicate that returns true if **at least one** argument is true or evaluates to true for the given input.
 
-(A predicate is a function that returns a `boolean`, commonly used in `Array.prototype.filter`)
+A predicate is a function that returns a `boolean`, commonly used in `Array.prototype.filter`.
 
 e.g.
 
