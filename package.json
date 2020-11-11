@@ -17,6 +17,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "eslint": "^7.13.0",
     "eslint-config-raine": "^0.1.1",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.22.1",
