@@ -1,6 +1,6 @@
 {
   "name": "and-or",
-  "description": "Simple functional programming predicates \"and\" and \"or\"",
+  "description": "Simple \"and\" and \"or\" functional programming predicates",
   "version": "0.0.0",
   "author": {
     "name": "Raine Revere",
@@ -12,6 +12,7 @@
     "node": ">=12"
   },
   "scripts": {
+    "build": "node build.js",
     "lint": "eslint",
     "test": "jest"
   },
