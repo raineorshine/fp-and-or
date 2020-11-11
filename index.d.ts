@@ -1,2 +1,3 @@
-export function and(...args: (() => boolean | boolean)[]): boolean
-export function or(...args: (() => boolean | boolean)[]): boolean
+const Predicate = () => boolean
+export function and(...args: (Predicate | boolean)[]): boolean
+export function or(...args: (Predicate | boolean)[]): boolean
