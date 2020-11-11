@@ -1,6 +1,6 @@
 {
-  "name": "and-or",
-  "description": "Simple \"and\" and \"or\" functional programming predicates",
+  "name": "fp-and-or",
+  "description": "Simple `and` and `or` functional programming predicates",
   "version": "0.1.0",
   "author": {
     "name": "Raine Revere",
