@@ -16,6 +16,10 @@
     "lint": "eslint",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raineorshine/fp-and-or.git"
+  },
   "devDependencies": {
     "eslint": "^7.14.0",
     "eslint-config-raine": "^0.1.2",
