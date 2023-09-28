@@ -4,12 +4,12 @@
   "version": "0.1.4",
   "author": {
     "name": "Raine Revere",
-    "email": "raineorshine@gmail.com",
+    "email": "raine.revere@pm.me",
     "url": "https://github.com/raineorshine"
   },
   "license": "ISC",
   "engines": {
-    "node": ">=10"
+    "node": "^16.10.0 || >=18.0.0"
   },
   "scripts": {
     "build": "node build.js",
